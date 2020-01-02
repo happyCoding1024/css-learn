@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>利用纯CSS实现选项卡切换</title>
+  <style type="text/css">
+    input {
+      display: none;
+    }
+    #ra1+#ra1label {
+      background-color: #ccc;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    #ra1:checked+#ra1label {
+      background-color: pink;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    #ra2+#ra2label {
+      background-color: #ccc;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    #ra2:checked+#ra2label {
+      background-color: pink;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    #ra3+#ra3label {
+      background-color: #ccc;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+    #ra3:checked+#ra3label {
+      background-color: pink;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="tabs">
+    <input type="radio" id="ra1" name="radio">
+    <label for="ra1" id="ra1label">选项1</label>
+    <input type="radio" id="ra2" name="radio">
+    <label for="ra2" id="ra2label">选项2</label>
+    <input type="radio" id="ra3" name="radio">
+    <label for="ra3" id="ra3label">选项3</label>
+  </div>
+
+</body>
+</html>
