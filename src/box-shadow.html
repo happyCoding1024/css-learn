@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>box-shadow</title>
+  <style type="text/css">
+    .container {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      margin: 50px auto;
+      box-shadow: 0 0 10px 20px blue;
+    }
+    .inner {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-color: #fff;
+      top: -20px;
+      left: -20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inner"></div>
+  </div>
+
+</body>
+</html>
